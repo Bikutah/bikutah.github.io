@@ -14,14 +14,29 @@ section {
 
 h1{
     font-size: 2.5rem;
-
 }
+
+.seccion-oscura {
+    color: white;
+    background-color: #373739
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;  
+}
+    
 
 /*Seccion Hero*/
 
 .hero{
     background-color: #f5f6f7;
     min-height: 450px;
+    height: 700px;
     text-align: center;
     
 }
@@ -40,6 +55,20 @@ h1{
     height: 200px;
     margin: 20px;
 }
+
+/*Sobre mi*/
+
+.sobre-mi {
+    height: 500px;
+    padding: 30px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
 
 /*Responsive*/
 
